@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumen Peptides | High-Purity Bio-Research & Bitcoin Lightning Settlement</title>
+  <meta name="description" content="Analytical grade research peptides with verified HPLC Certificates of Analysis and instant Bitcoin Lightning Network checkout.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <div class="announcement-item">
+        <span class="pulse-dot"></span>
+        <span>STRICTLY FOR LABORATORY & IN VITRO RESEARCH USE ONLY</span>
+      </div>
+      <div class="announcement-item ticker-wrap" id="fxTicker">
+        <span class="ln-lightning">⚡</span>
+        <span class="ticker-text">BTC: <strong id="liveBtcPrice">$68,500</strong></span>
+        <span class="ticker-divider">•</span>
+        <span>1 USD = <strong id="liveSatsRate">1,460 SATS</strong></span>
+      </div>
+      <div class="announcement-item hide-mobile">
+        <span>Cold-Chain Insulated Shipping with Vacuum Desiccation</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">LUMEN</span>
+          <span class="brand-sub">PEPTIDES</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#catalog" class="nav-link active">Catalog</a>
+        <a href="#" class="nav-link" id="navCalcBtn">Reconstitution Calculator</a>
+        <a href="#" class="nav-link" id="navTrackBtn">Track Order</a>
+        <a href="#compliance" class="nav-link">Quality & Purity</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="calc-nav-badge" id="calcHeaderBtn" title="Open Peptide Calculator">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+            <line x1="8" y1="6" x2="16" y2="6"></line>
+            <line x1="16" y1="14" x2="16" y2="18"></line>
+            <path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"></path>
+          </svg>
+          <span class="hide-mobile">Calculator</span>
+        </button>
+
+        <button class="cart-btn" id="openCartBtn" aria-label="Shopping Cart">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-label hide-mobile">Cart</span>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <span class="badge-spark"></span>
+        <span>HPLC ≥ 99.0% PURITY GUARANTEED • BATCH VERIFIED</span>
+      </div>
+      <h1 class="hero-title">
+        High-Purity Bio-Active Peptides.<br>
+        <span class="gradient-text">Settled Instantly on Lightning.</span>
+      </h1>
+      <p class="hero-description">
+        Analytical-grade research compounds manufactured under ISO 9001 certified protocols. Lyophilized in sterile borosilicate vials, backed by independent mass spectrometry, and delivered with cold-chain integrity.
+      </p>
+
+      <!-- Trust Grid -->
+      <div class="hero-trust-bar">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div>
+            <strong>Third-Party COA</strong>
+            <p>Every vial traceable by batch</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon ln-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div>
+            <strong>Bitcoin Lightning</strong>
+            <p>0% merchant fees • Instant settlement</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <div>
+            <strong>Cold-Chain Packing</strong>
+            <p>Thermal insulation with ice-pack</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Action Controls -->
+      <div class="hero-controls">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" placeholder="Search by peptide name, CAS#, or category...">
+          <button id="clearSearchBtn" class="clear-search" style="display:none;">&times;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bulk Savings Banner -->
+  <div class="container">
+    <div class="tier-promo-banner">
+      <div class="tier-promo-icon">🏷️</div>
+      <div class="tier-promo-text">
+        <strong>Automatic Multi-Tier Bulk Research Discounts:</strong>
+        <span>Order 3+ vials for <strong>5% OFF</strong> • 5+ vials for <strong>10% OFF</strong> • 10+ vials for <strong>15% OFF</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Catalog Section -->
+  <main class="container catalog-section" id="catalog">
+    <div class="catalog-header">
+      <div>
+        <h2 class="section-title">Research Compound Catalog</h2>
+        <p class="section-subtitle">Select research grade lyophilized peptides for in vitro testing.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="category-tabs" id="categoryTabs">
+        <button class="category-tab active" data-category="All">All Peptides</button>
+        <button class="category-tab" data-category="Metabolic & Incretin Research">Metabolic / GLP-1</button>
+        <button class="category-tab" data-category="Recovery & Tissue Repair">Recovery & Tissue</button>
+        <button class="category-tab" data-category="Longevity & Cellular Health">Longevity & Cellular</button>
+        <button class="category-tab" data-category="GH Secretagogues & Vitality">GH Secretagogues</button>
+        <button class="category-tab" data-category="Cognitive & Nootropic Research">Nootropics</button>
+        <button class="category-tab" data-category="Reconstitution & Lab Essentials">Lab Essentials</button>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid" id="productGrid">
+      <!-- Injected via JavaScript -->
+      <div class="grid-loading">
+        <div class="spinner"></div>
+        <p>Loading analytical catalog and live Satoshi pricing...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Interactive Peptide Reconstitution Calculator Section -->
+  <section class="calculator-section" id="calcSection">
+    <div class="container">
+      <div class="calc-card">
+        <div class="calc-header">
+          <div class="calc-title-group">
+            <span class="calc-badge">LABORATORY TOOL</span>
+            <h2>Interactive Peptide Reconstitution Calculator</h2>
+            <p>Accurately calculate bacteriostatic water volume, target research dosage, and visual insulin syringe unit calibration.</p>
+          </div>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Inputs Form -->
+          <div class="calc-form">
+            <div class="form-group">
+              <label for="calcVialMass">Peptide Vial Quantity (mg):</label>
+              <div class="input-with-addon">
+                <input type="number" id="calcVialMass" value="5" min="0.1" step="0.5">
+                <span class="addon">mg</span>
+              </div>
+              <div class="quick-preset-chips">
+                <button type="button" class="preset-chip" onclick="setCalcPreset('mass', 2)">2 mg</button>
+                <button type="button" class="preset-chip active" onclick="setCalcPreset('mass', 5)">5 mg</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('mass', 10)">10 mg</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('mass', 15)">15 mg</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calcWaterVol">Bacteriostatic Water Added (mL):</label>
+              <div class="input-with-addon">
+                <input type="number" id="calcWaterVol" value="2.0" min="0.5" max="10" step="0.5">
+                <span class="addon">mL</span>
+              </div>
+              <div class="quick-preset-chips">
+                <button type="button" class="preset-chip" onclick="setCalcPreset('water', 1.0)">1.0 mL</button>
+                <button type="button" class="preset-chip active" onclick="setCalcPreset('water', 2.0)">2.0 mL</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('water', 2.5)">2.5 mL</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('water', 3.0)">3.0 mL</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calcTargetDose">Desired Research Dose (mcg):</label>
+              <div class="input-with-addon">
+                <input type="number" id="calcTargetDose" value="250" min="10" step="25">
+                <span class="addon">mcg</span>
+              </div>
+              <div class="quick-preset-chips">
+                <button type="button" class="preset-chip" onclick="setCalcPreset('dose', 100)">100 mcg</button>
+                <button type="button" class="preset-chip active" onclick="setCalcPreset('dose', 250)">250 mcg</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('dose', 500)">500 mcg</button>
+                <button type="button" class="preset-chip" onclick="setCalcPreset('dose', 1000)">1,000 mcg</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calcSyringeType">Syringe Gauge & Capacity:</label>
+              <select id="calcSyringeType">
+                <option value="100">U-100 Syringe (1.0 mL = 100 Units)</option>
+                <option value="50">U-50 Syringe (0.5 mL = 50 Units)</option>
+                <option value="30">U-30 Syringe (0.3 mL = 30 Units)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Dynamic Output & Visual Syringe -->
+          <div class="calc-results-panel">
+            <div class="result-headline">
+              <span class="result-label">SYRINGE DRAW AMOUNT</span>
+              <div class="result-number">
+                <span id="resUnits">10.0</span>
+                <span class="unit-tag">UNITS</span>
+              </div>
+              <p class="result-volume">Equivalent to <strong id="resVolumeML">0.10 mL</strong> of reconstituted solution</p>
+            </div>
+
+            <!-- Syringe Metric Table -->
+            <div class="calc-stats-table">
+              <div class="stat-row">
+                <span>Concentration:</span>
+                <strong id="resConcentration">2.50 mg/mL (25 mcg/unit)</strong>
+              </div>
+              <div class="stat-row">
+                <span>Total Doses in Vial:</span>
+                <strong id="resTotalDoses">20 research doses</strong>
+              </div>
+              <div class="stat-row">
+                <span>Total Vial Volume:</span>
+                <strong id="resTotalVol">2.0 mL</strong>
+              </div>
+            </div>
+
+            <!-- Interactive Visual Syringe SVG -->
+            <div class="visual-syringe-container">
+              <div class="syringe-title">Visual Draw Preview on U-100 Syringe:</div>
+              <div class="syringe-svg-wrap">
+                <svg id="syringeSvg" viewBox="0 0 520 70" width="100%" height="70">
+                  <!-- Syringe Needle -->
+                  <rect x="10" y="32" width="40" height="3" fill="#94a3b8" />
+                  <polygon points="10,32 5,33.5 10,35" fill="#64748b" />
+                  <!-- Syringe Hub -->
+                  <polygon points="50,25 60,28 60,39 50,42" fill="#0284c7" />
+                  <!-- Syringe Barrel Body -->
+                  <rect x="60" y="15" width="380" height="37" rx="3" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" />
+                  <!-- Fluid Fill -->
+                  <rect id="syringeFluid" x="60" y="17" width="38" height="33" fill="rgba(56, 189, 248, 0.45)" />
+                  <!-- Plunger Tip (Black rubber seal) -->
+                  <rect id="syringePlungerTip" x="96" y="17" width="8" height="33" fill="#0f172a" rx="1" />
+                  <!-- Plunger Stem -->
+                  <rect id="syringeStem" x="104" y="27" width="360" height="13" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1" />
+                  <!-- Syringe Thumb Push -->
+                  <rect id="syringeThumb" x="464" y="12" width="12" height="43" rx="2" fill="#0284c7" />
+                  <!-- Tick Graduations (0 to 100) -->
+                  <!-- 0 Units at x=60, 100 Units at x=440. Each 10 units = 38px -->
+                  <g class="syringe-ticks" stroke="#64748b" stroke-width="1">
+                    <line x1="60" y1="15" x2="60" y2="28" stroke-width="2" />
+                    <line x1="98" y1="15" x2="98" y2="24" />
+                    <line x1="136" y1="15" x2="136" y2="28" stroke-width="2" />
+                    <line x1="174" y1="15" x2="174" y2="24" />
+                    <line x1="212" y1="15" x2="212" y2="28" stroke-width="2" />
+                    <line x1="250" y1="15" x2="250" y2="24" />
+                    <line x1="288" y1="15" x2="288" y2="28" stroke-width="2" />
+                    <line x1="326" y1="15" x2="326" y2="24" />
+                    <line x1="364" y1="15" x2="364" y2="28" stroke-width="2" />
+                    <line x1="402" y1="15" x2="402" y2="24" />
+                    <line x1="440" y1="15" x2="440" y2="28" stroke-width="2" />
+                  </g>
+                  <!-- Labels -->
+                  <text x="60" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">0</text>
+                  <text x="136" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">20</text>
+                  <text x="212" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">40</text>
+                  <text x="288" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">60</text>
+                  <text x="364" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">80</text>
+                  <text x="440" y="62" font-size="10" font-family="JetBrains Mono" fill="#64748b" text-anchor="middle">100</text>
+                </svg>
+              </div>
+            </div>
+
+            <div class="recon-protocol-box">
+              <strong>Standard Reconstitution Protocol:</strong>
+              <ol>
+                <li>Swab rubber septum of both vials with 70% isopropyl alcohol.</li>
+                <li>Draw target volume of Bacteriostatic Water and gently inject down the glass interior wall.</li>
+                <li>Gently swirl in circular motion until completely clear. <em>Do not agitate or shake aggressively.</em></li>
+                <li>Store reconstituted solution at 2°C to 8°C. Protect from prolonged direct light exposure.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality Assurance & Compliance Section -->
+  <section class="compliance-section" id="compliance">
+    <div class="container">
+      <div class="compliance-header">
+        <span class="compliance-tag">ANALYTICAL PURITY STANDARD</span>
+        <h2>Integrity in Every Synthesis Batch</h2>
+        <p>Our research peptides undergo stringent HPLC analysis and mass spectrometry verification to ensure maximum chemical precision.</p>
+      </div>
+
+      <div class="quality-grid">
+        <div class="quality-card">
+          <div class="qc-icon">🔬</div>
+          <h3>RP-HPLC Tested</h3>
+          <p>Reverse-phase high-performance liquid chromatography guarantees no truncated fragments or chemical impurities.</p>
+          <div class="qc-badge">≥ 99.0% Certified</div>
+        </div>
+        <div class="quality-card">
+          <div class="qc-icon">📊</div>
+          <h3>Mass Spectrometry</h3>
+          <p>ESI-MS / MALDI-TOF verification ensures accurate molecular mass and exact peptide sequence identity.</p>
+          <div class="qc-badge">Exact MW Validated</div>
+        </div>
+        <div class="quality-card">
+          <div class="qc-icon">❄️</div>
+          <h3>Lyophilized & Desiccated</h3>
+          <p>Freeze-dried under sterile vacuum conditions to guarantee up to 36 months of chemical stability at -20°C.</p>
+          <div class="qc-badge">Nitrogen Purged</div>
+        </div>
+        <div class="quality-card">
+          <div class="qc-icon">⚡</div>
+          <h3>Instant Lightning Settlement</h3>
+          <p>Direct peer-to-peer Bitcoin Lightning payments eliminate credit card processing surcharges and ensure instant checkout.</p>
+          <div class="qc-badge">WebLN Native</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <div class="brand-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"></path></svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">LUMEN</span>
+            <span class="brand-sub">PEPTIDES</span>
+          </div>
+        </div>
+        <p class="footer-bio">
+          Premium synthetic biological peptides synthesized for scientific, laboratory, and in vitro research. Verified purity, zero compromise.
+        </p>
+        <div class="ln-supported-badge">
+          <span>⚡ Powered by Bitcoin Lightning Network</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#catalog">Research Catalog</a></li>
+          <li><a href="#calcSection">Reconstitution Calculator</a></li>
+          <li><a href="#" onclick="openOrderTrackModal(); return false;">Order Tracking</a></li>
+          <li><a href="#compliance">Quality Specifications</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Peptide Categories</h4>
+        <ul>
+          <li><a href="#catalog" onclick="filterByCategory('Metabolic & Incretin Research')">GLP-1 & Incretins</a></li>
+          <li><a href="#catalog" onclick="filterByCategory('Recovery & Tissue Repair')">BPC-157 & TB-500</a></li>
+          <li><a href="#catalog" onclick="filterByCategory('Longevity & Cellular Health')">GHK-Cu & Epithalon</a></li>
+          <li><a href="#catalog" onclick="filterByCategory('GH Secretagogues & Vitality')">CJC / Ipamorelin</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Lightning Wallets</h4>
+        <ul>
+          <li><a href="https://getalby.com" target="_blank" rel="noopener">Alby (WebLN)</a></li>
+          <li><a href="https://phoenix.acinq.co" target="_blank" rel="noopener">Phoenix Wallet</a></li>
+          <li><a href="https://strike.me" target="_blank" rel="noopener">Strike</a></li>
+          <li><a href="https://zeusln.com" target="_blank" rel="noopener">Zeus LN</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mandatory Legal Compliance Disclaimer -->
+    <div class="container footer-disclaimer">
+      <div class="disclaimer-box">
+        <strong>LEGAL RESEARCH DISCLAIMER:</strong> All products supplied by Lumen Peptides are strictly intended for laboratory, in vitro, and scientific research use by qualified research personnel. None of the compounds sold on this site are intended for human consumption, therapeutic, medicinal, food, or veterinary purposes. Statements on this website have not been evaluated by the FDA or any government health authority. Buyers warrant compliance with all local laws and safety protocols.
+      </div>
+      <div class="footer-bottom-bar">
+        <span>© 2026 Lumen Peptides. Synthesized & Engineered with Precision.</span>
+        <span>Node.js • Bitcoin Lightning Network • WebLN</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <h3>Research Order Cart</h3>
+        <span class="drawer-item-count" id="drawerItemCount">0 items</span>
+      </div>
+      <button class="close-drawer-btn" id="closeCartBtn">&times;</button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartItemList">
+      <!-- Items dynamically populated -->
+      <div class="empty-cart-state">
+        <div class="empty-icon">🧪</div>
+        <h4>Your research cart is empty</h4>
+        <p>Select peptides from the catalog to begin your research order.</p>
+        <button class="btn btn-primary" onclick="closeCart();">Browse Peptides</button>
+      </div>
+    </div>
+
+    <!-- Cart Footer & Totals -->
+    <div class="cart-drawer-footer" id="cartFooter" style="display:none;">
+      <!-- Tier savings alert -->
+      <div class="cart-discount-alert" id="cartDiscountAlert">
+        <span id="discountTag">Tier Discount Applied</span>
+      </div>
+
+      <div class="cart-summary-line">
+        <span>Subtotal:</span>
+        <strong id="cartSubtotalUSD">$0.00</strong>
+      </div>
+      <div class="cart-summary-line discount-line" id="discountLine" style="display:none;">
+        <span>Bulk Discount:</span>
+        <strong id="cartDiscountUSD">-$0.00</strong>
+      </div>
+      <div class="cart-summary-line total-line">
+        <span>Total USD:</span>
+        <strong id="cartTotalUSD" class="total-usd-amount">$0.00</strong>
+      </div>
+      <div class="cart-summary-line ln-sats-line">
+        <span>Lightning Total:</span>
+        <strong class="total-sats-amount">
+          <span class="ln-bolt">⚡</span>
+          <span id="cartTotalSats">0</span> SATS
+        </strong>
+      </div>
+
+      <button class="btn btn-checkout" id="startCheckoutBtn">
+        <span class="ln-lightning">⚡</span>
+        <span>Proceed to Lightning Checkout</span>
+      </button>
+
+      <div class="cart-guarantee-note">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        <span>Instant peer-to-peer BOLT11 & WebLN settlement</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Checkout & Lightning Network Modal -->
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="modal-card checkout-card">
+      <div class="modal-header">
+        <div class="modal-header-icon ln-icon">⚡</div>
+        <div>
+          <h3 id="checkoutModalTitle">Bitcoin Lightning Checkout</h3>
+          <p class="modal-subtitle">Instant settlement • Zero transaction surcharges</p>
+        </div>
+        <button class="close-modal-btn" onclick="closeModal('checkoutModal')">&times;</button>
+      </div>
+
+      <div class="modal-body" id="checkoutModalBody">
+        <!-- 1. Customer Lab Details Form -->
+        <div id="checkoutStepCustomer">
+          <h4 class="step-heading">1. Research Institution & Shipping Destination</h4>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Research Facility / Contact Email *</label>
+              <input type="email" id="customerEmail" placeholder="lab@university.edu" required>
+            </div>
+            <div class="form-group">
+              <label>Institution / Entity Name</label>
+              <input type="text" id="customerInstitution" placeholder="Biomedical Research Dept.">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Cold-Chain Delivery Address *</label>
+            <input type="text" id="customerAddress" placeholder="100 BioTech Parkway, Suite 400, Boston, MA" required>
+          </div>
+
+          <div class="order-summary-preview">
+            <div class="summary-row">
+              <span>Order Subtotal:</span>
+              <strong id="modalSummaryUSD">$0.00</strong>
+            </div>
+            <div class="summary-row total-highlight">
+              <span>Payable via Lightning:</span>
+              <strong id="modalSummarySats">0 SATS</strong>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-block" id="generateInvoiceBtn">
+            <span>Generate Lightning BOLT11 Invoice</span>
+            <span class="ln-lightning">⚡</span>
+          </button>
+        </div>
+
+        <!-- 2. Lightning BOLT11 Payment Screen -->
+        <div id="checkoutStepPayment" style="display:none;">
+          <div class="invoice-amount-header">
+            <div class="sats-display">
+              <span class="sats-amount" id="invoiceSatsDisplay">0</span>
+              <span class="sats-label">SATS</span>
+            </div>
+            <div class="usd-equivalent" id="invoiceUsdDisplay">(≈ $0.00 USD)</div>
+          </div>
+
+          <!-- WebLN Quick Action Button (If extension detected) -->
+          <div id="weblnActionContainer" style="display:none;" class="webln-box">
+            <button class="btn btn-webln" id="weblnPayBtn">
+              <span class="ln-bolt">⚡</span>
+              <span>1-Click Pay with WebLN Wallet</span>
+            </button>
+            <p class="webln-hint">Detected active WebLN wallet (Alby / Strike / Mutiny / Zeus)</p>
+          </div>
+
+          <!-- Vector QR Code Canvas/SVG -->
+          <div class="qr-container">
+            <div id="qrCodeTarget" class="qr-box"></div>
+            <div class="qr-pulse-indicator">
+              <span class="pulse-beacon"></span>
+              <span>Listening for Lightning Payment Settlement...</span>
+            </div>
+          </div>
+
+          <!-- Copyable BOLT11 String -->
+          <div class="bolt11-copy-box">
+            <label>BOLT11 Invoice Request:</label>
+            <div class="copy-input-row">
+              <input type="text" id="bolt11Input" readonly>
+              <button class="btn btn-secondary" id="copyBolt11Btn" title="Copy Invoice">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span id="copyBtnText">Copy</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Lightning Mobile App Deep Link -->
+          <div class="deep-link-row">
+            <a href="#" id="openWalletLink" class="btn btn-outline btn-block">
+              <span>Open in Mobile Lightning App (Phoenix, Breez, Strike)</span>
+            </a>
+          </div>
+
+          <!-- Instant Settlement Simulator (For Demo & Local Verification) -->
+          <div class="test-simulator-box">
+            <div class="sim-header">
+              <span>🧪 DEV/TESTNET LIGHTNING SIMULATOR</span>
+            </div>
+            <p>Click below to simulate instant Lightning HTLC invoice settlement on this order:</p>
+            <button class="btn btn-simulate" id="simulateSettlementBtn">
+              <span>Simulate Instant LN Settlement</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Settled Confirmation Screen -->
+        <div id="checkoutStepSuccess" style="display:none;" class="success-screen">
+          <div class="success-circle">
+            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#10b981" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+          <h3>Lightning Payment Confirmed!</h3>
+          <p class="success-subtitle">Your transaction has settled cryptographically on the Bitcoin Lightning Network.</p>
+
+          <div class="receipt-card">
+            <div class="receipt-row">
+              <span>Order Reference:</span>
+              <strong id="receiptOrderId">LP-ORD-XXXX</strong>
+            </div>
+            <div class="receipt-row">
+              <span>Amount Paid:</span>
+              <strong id="receiptAmountSats">0 SATS</strong>
+            </div>
+            <div class="receipt-row">
+              <span>Fulfillment Status:</span>
+              <span class="status-pill status-paid">Cold-Chain Allocation</span>
+            </div>
+            <div class="receipt-row">
+              <span>FedEx Cold Tracking:</span>
+              <strong id="receiptTracking">COLD-FEDEX-PENDING</strong>
+            </div>
+            <div class="receipt-row full-width-proof">
+              <span>Cryptographic Preimage Proof:</span>
+              <code id="receiptPreimage" class="preimage-code">00000000000000000000000000000000</code>
+            </div>
+          </div>
+
+          <div class="success-actions">
+            <button class="btn btn-primary" onclick="window.print();">Print Laboratory Receipt</button>
+            <button class="btn btn-secondary" onclick="closeModal('checkoutModal'); resetCheckout();">Continue Research Catalog</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate of Analysis (COA) / HPLC Analytical Modal -->
+  <div class="modal-overlay" id="coaModal">
+    <div class="modal-card coa-card">
+      <div class="modal-header">
+        <div class="modal-header-icon">🔬</div>
+        <div>
+          <h3 id="coaTitle">Certificate of Analysis</h3>
+          <p class="modal-subtitle" id="coaSubtitle">High-Performance Liquid Chromatography & Mass Spectrometry</p>
+        </div>
+        <button class="close-modal-btn" onclick="closeModal('coaModal')">&times;</button>
+      </div>
+
+      <div class="modal-body coa-report" id="coaReportContent">
+        <!-- Dynamically injected COA data -->
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('coaModal');">Close</button>
+        <button class="btn btn-primary" onclick="window.print();">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print / Save Analytical COA</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Tracking Modal -->
+  <div class="modal-overlay" id="trackModal">
+    <div class="modal-card track-card">
+      <div class="modal-header">
+        <div class="modal-header-icon">📦</div>
+        <div>
+          <h3>Track Research Shipment</h3>
+          <p class="modal-subtitle">Real-time cold-chain fulfillment timeline</p>
+        </div>
+        <button class="close-modal-btn" onclick="closeModal('trackModal')">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="track-search-row">
+          <input type="text" id="trackInput" placeholder="Enter Order ID (e.g. LP-ORD-8F2B)">
+          <button class="btn btn-primary" id="trackLookupBtn">Track Order</button>
+        </div>
+
+        <div id="trackResultContainer" style="display:none;" class="track-result-wrap">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

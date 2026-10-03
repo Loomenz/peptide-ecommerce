@@ -1,0 +1,28 @@
+{
+  "name": "lumen-peptides-ecommerce",
+  "version": "1.0.0",
+  "description": "High-purity peptide research catalog & e-commerce platform with native Bitcoin Lightning Network payments.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "peptides",
+    "ecommerce",
+    "bitcoin",
+    "lightning-network",
+    "webln",
+    "bolt11",
+    "biotech",
+    "reconstitution-calculator"
+  ],
+  "author": "Loomenz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}

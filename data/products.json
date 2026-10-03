@@ -1,0 +1,381 @@
+[
+  {
+    "id": "bpc-157",
+    "name": "BPC-157",
+    "slug": "bpc-157",
+    "subtitle": "Body Protection Compound Pentadecapeptide",
+    "category": "Recovery & Tissue Repair",
+    "casNumber": "137525-51-0",
+    "sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+    "molecularFormula": "C62H98N16O22",
+    "molecularWeight": "1419.53 g/mol",
+    "purity": "99.8%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months, 2-8°C once reconstituted",
+    "variants": [
+      { "size": "5mg", "priceUSD": 49.00, "sku": "BPC157-5MG", "stock": 85 },
+      { "size": "10mg", "priceUSD": 79.00, "sku": "BPC157-10MG", "stock": 62 }
+    ],
+    "description": "BPC-157 is a stable 15-amino acid pentadecapeptide derived from human gastric juice protein. Heavily researched for angiogenic stimulation, collagen synthesis, tendon-to-bone healing, and gut endothelial integrity.",
+    "batch": {
+      "batchNumber": "LP-2026-BPC157-08",
+      "testDate": "2026-08-14",
+      "analyst": "Dr. Sarah Lindqvist, Ph.D.",
+      "testMethod": "RP-HPLC (C18 Column, 214nm) & ESI-MS",
+      "retentionTime": "8.42 min",
+      "purityObserved": "99.82%",
+      "massSpecExpected": "1419.53",
+      "massSpecFound": "1419.48",
+      "appearance": "White lyophilized amorphous cake",
+      "endotoxin": "< 0.05 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "tb-500",
+    "name": "TB-500",
+    "slug": "tb-500",
+    "subtitle": "Synthetic Thymosin Beta-4 Bio-Active Fragment",
+    "category": "Recovery & Tissue Repair",
+    "casNumber": "77591-33-4",
+    "sequence": "Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser-OH",
+    "molecularFormula": "C212H350N56O78S",
+    "molecularWeight": "4963.50 g/mol",
+    "purity": "99.4%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months, 2-8°C once reconstituted",
+    "variants": [
+      { "size": "5mg", "priceUSD": 58.00, "sku": "TB500-5MG", "stock": 44 },
+      { "size": "10mg", "priceUSD": 96.00, "sku": "TB500-10MG", "stock": 31 }
+    ],
+    "description": "TB-500 is the synthetic formulation of the active domain of naturally occurring Thymosin Beta-4. Promotes actin filament upregulation, cell migration, endothelial cell differentiation, and accelerated tissue remodeling.",
+    "batch": {
+      "batchNumber": "LP-2026-TB500-11",
+      "testDate": "2026-09-02",
+      "analyst": "Marcus Vance, MS, LC-MS Specialist",
+      "testMethod": "RP-HPLC & MALDI-TOF MS",
+      "retentionTime": "11.18 min",
+      "purityObserved": "99.44%",
+      "massSpecExpected": "4963.50",
+      "massSpecFound": "4963.62",
+      "appearance": "Fine white lyophilized cake",
+      "endotoxin": "< 0.04 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "tirzepatide",
+    "name": "Tirzepatide",
+    "slug": "tirzepatide",
+    "subtitle": "Dual GIP and GLP-1 Receptor Agonist",
+    "category": "Metabolic & Incretin Research",
+    "casNumber": "2023788-19-2",
+    "sequence": "Tyr-{Aib}-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-{Aib}-Leu-Asp-Lys-Ile-Ala-Gln-Lys(e-C20-diacid-g-Glu-OEG-OEG)-Ala-Phe-Val-Gln-Trp-Leu-Ile-Ala-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2",
+    "molecularFormula": "C225H348N48O68",
+    "molecularWeight": "4813.52 g/mol",
+    "purity": "99.6%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 24 months, strictly protect from light",
+    "variants": [
+      { "size": "10mg", "priceUSD": 115.00, "sku": "TRZ-10MG", "stock": 90 },
+      { "size": "15mg", "priceUSD": 149.00, "sku": "TRZ-15MG", "stock": 78 }
+    ],
+    "description": "Tirzepatide is a pioneering twincretin synthetic peptide engineering both glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonism with a C20 fatty diacid moiety.",
+    "batch": {
+      "batchNumber": "LP-2026-TRZ-09C",
+      "testDate": "2026-09-18",
+      "analyst": "Dr. Elena Rostova, Ph.D.",
+      "testMethod": "RP-HPLC (Gradient Acetonitrile/TFA) & ESI-Q-TOF",
+      "retentionTime": "14.65 min",
+      "purityObserved": "99.68%",
+      "massSpecExpected": "4813.52",
+      "massSpecFound": "4813.49",
+      "appearance": "White lyophilized powder",
+      "endotoxin": "< 0.02 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "semaglutide",
+    "name": "Semaglutide",
+    "slug": "semaglutide",
+    "subtitle": "Long-Acting GLP-1 Receptor Agonist",
+    "category": "Metabolic & Incretin Research",
+    "casNumber": "910463-68-2",
+    "sequence": "His-{Aib}-Glu-Gly-Thr-Phe-Thr-Ser-Asp-Val-Ser-Ser-Tyr-Leu-Glu-Gly-Gln-Ala-Ala-Lys(AEEAc-AEEAc-g-Glu-17-carboxyheptadecanoyl)-Glu-Phe-Ile-Ala-Trp-Leu-Val-Arg-Gly-Arg-Gly-OH",
+    "molecularFormula": "C187H291N45O59",
+    "molecularWeight": "4113.64 g/mol",
+    "purity": "99.5%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months, protect from light",
+    "variants": [
+      { "size": "5mg", "priceUSD": 85.00, "sku": "SMG-5MG", "stock": 65 },
+      { "size": "10mg", "priceUSD": 139.00, "sku": "SMG-10MG", "stock": 52 }
+    ],
+    "description": "Semaglutide is a modified GLP-1 analog with 94% sequence homology to human GLP-1, featuring an amino acid substitution at position 8 and an octadecanedioic acid spacer conferring prolonged biological half-life.",
+    "batch": {
+      "batchNumber": "LP-2026-SMG-07A",
+      "testDate": "2026-07-29",
+      "analyst": "Dr. Sarah Lindqvist, Ph.D.",
+      "testMethod": "RP-HPLC & High-Resolution Orbitrap MS",
+      "retentionTime": "13.20 min",
+      "purityObserved": "99.52%",
+      "massSpecExpected": "4113.64",
+      "massSpecFound": "4113.58",
+      "appearance": "Snow-white lyophilized solid",
+      "endotoxin": "< 0.03 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "retatrutide",
+    "name": "Retatrutide",
+    "slug": "retatrutide",
+    "subtitle": "Triple GIP / GLP-1 / Glucagon Receptor Tri-Agonist",
+    "category": "Metabolic & Incretin Research",
+    "casNumber": "2381089-83-2",
+    "sequence": "Tyr-{Aib}-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-{a-Me-Leu}-Leu-Asp-Lys-Lys-Ala-Gln-{Aib}-Ala-Phe-Ile-Glu-Tyr-Leu-Leu-Glu-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2",
+    "molecularFormula": "C221H342N46O68",
+    "molecularWeight": "4731.42 g/mol",
+    "purity": "99.7%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 24 months, desiccate in dark",
+    "variants": [
+      { "size": "10mg", "priceUSD": 169.00, "sku": "RTA-10MG", "stock": 40 },
+      { "size": "20mg", "priceUSD": 279.00, "sku": "RTA-20MG", "stock": 25 }
+    ],
+    "description": "Retatrutide (LY3437943) is an experimental triple-hormone receptor agonist activating GLP-1, GIP, and glucagon (GCGR) pathways concurrently, investigated for metabolic acceleration and lipid clearance dynamics.",
+    "batch": {
+      "batchNumber": "LP-2026-RTA-04",
+      "testDate": "2026-09-25",
+      "analyst": "Marcus Vance, MS, LC-MS Specialist",
+      "testMethod": "RP-HPLC (C18 Hypersil, 214nm) & ESI-MS",
+      "retentionTime": "15.10 min",
+      "purityObserved": "99.74%",
+      "massSpecExpected": "4731.42",
+      "massSpecFound": "4731.38",
+      "appearance": "Uniform lyophilized powder",
+      "endotoxin": "< 0.02 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "epithalon",
+    "name": "Epithalon (Epitalon)",
+    "slug": "epithalon",
+    "subtitle": "Telomerase Enzyme Activator Tetrapeptide",
+    "category": "Longevity & Cellular Health",
+    "casNumber": "307297-39-8",
+    "sequence": "Ala-Glu-Asp-Gly",
+    "molecularFormula": "C14H22N4O9",
+    "molecularWeight": "390.35 g/mol",
+    "purity": "99.9%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months, 2-8°C once reconstituted",
+    "variants": [
+      { "size": "10mg", "priceUSD": 45.00, "sku": "EPI-10MG", "stock": 58 },
+      { "size": "50mg", "priceUSD": 139.00, "sku": "EPI-50MG", "stock": 35 }
+    ],
+    "description": "Epithalon is an ultra-pure synthetic pineal tetrapeptide developed to investigate telomere elongation mechanisms via induction of telomerase reverse transcriptase (TERT) expression and neuroendocrine regulation.",
+    "batch": {
+      "batchNumber": "LP-2026-EPI-06",
+      "testDate": "2026-08-19",
+      "analyst": "Dr. Sarah Lindqvist, Ph.D.",
+      "testMethod": "RP-HPLC & Direct Infusion ESI-MS",
+      "retentionTime": "4.12 min",
+      "purityObserved": "99.91%",
+      "massSpecExpected": "390.35",
+      "massSpecFound": "390.33",
+      "appearance": "Pure white crystalline powder",
+      "endotoxin": "< 0.01 EU/mg"
+    },
+    "featured": false
+  },
+  {
+    "id": "ghk-cu",
+    "name": "GHK-Cu",
+    "slug": "ghk-cu",
+    "subtitle": "Copper Tripeptide-1 Chelate Complex",
+    "category": "Longevity & Cellular Health",
+    "casNumber": "49557-75-7",
+    "sequence": "[Gly-His-Lys]·Cu2+",
+    "molecularFormula": "C14H22CuN6O4",
+    "molecularWeight": "401.91 g/mol",
+    "purity": "99.4%",
+    "form": "Lyophilized Deep Blue Powder",
+    "storage": "-20°C for up to 36 months, protect from light",
+    "variants": [
+      { "size": "50mg", "priceUSD": 48.00, "sku": "GHK-50MG", "stock": 70 },
+      { "size": "100mg", "priceUSD": 82.00, "sku": "GHK-100MG", "stock": 55 }
+    ],
+    "description": "GHK-Cu is an authentic blue copper tripeptide complex that regulates collagen and elastin synthesis, downregulates pro-inflammatory cytokines (TGF-beta, TNF-alpha), and modulates over 4,000 human genes.",
+    "batch": {
+      "batchNumber": "LP-2026-GHK-09",
+      "testDate": "2026-09-12",
+      "analyst": "Dr. Elena Rostova, Ph.D.",
+      "testMethod": "UV-Vis Spectroscopy & RP-HPLC",
+      "retentionTime": "5.35 min",
+      "purityObserved": "99.42%",
+      "massSpecExpected": "401.91",
+      "massSpecFound": "401.89",
+      "appearance": "Intense cobalt blue lyophilized powder",
+      "endotoxin": "< 0.03 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "mots-c",
+    "name": "MOTS-c",
+    "slug": "mots-c",
+    "subtitle": "Mitochondrial-Derived Peptide (16-AA)",
+    "category": "Longevity & Cellular Health",
+    "casNumber": "1627580-64-6",
+    "sequence": "Met-Arg-Trp-Gln-Glu-Met-Gly-Tyr-Ile-Phe-Tyr-Pro-Arg-Lys-Leu-Arg",
+    "molecularFormula": "C101H152N28O22S2",
+    "molecularWeight": "2174.62 g/mol",
+    "purity": "99.3%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 24 months",
+    "variants": [
+      { "size": "10mg", "priceUSD": 89.00, "sku": "MOTS-10MG", "stock": 48 }
+    ],
+    "description": "MOTS-c is a 16-amino acid mitochondrial open-reading-frame of 12S rRNA type-c peptide. Acts as a cellular exercise mimetic, stimulating AMPK activation and cellular glucose uptake independent of insulin.",
+    "batch": {
+      "batchNumber": "LP-2026-MOTS-02",
+      "testDate": "2026-08-30",
+      "analyst": "Marcus Vance, MS, LC-MS Specialist",
+      "testMethod": "RP-HPLC (C18, 214nm) & ESI-TOF",
+      "retentionTime": "9.88 min",
+      "purityObserved": "99.31%",
+      "massSpecExpected": "2174.62",
+      "massSpecFound": "2174.58",
+      "appearance": "White lyophilized powder",
+      "endotoxin": "< 0.05 EU/mg"
+    },
+    "featured": false
+  },
+  {
+    "id": "cjc-ipa-blend",
+    "name": "CJC-1295 + Ipamorelin Blend",
+    "slug": "cjc-ipa-blend",
+    "subtitle": "Dual Synergistic GH Secretagogue Formulation",
+    "category": "GH Secretagogues & Vitality",
+    "casNumber": "Blend Formulation",
+    "sequence": "CJC-1295 (No DAC) 5mg + Ipamorelin 5mg (1:1 Stoichiometric Lyophilization)",
+    "molecularFormula": "C152H252N44O42 / C38H49N9O5",
+    "molecularWeight": "3367.97 / 711.86 g/mol",
+    "purity": "99.5%",
+    "form": "Co-Lyophilized Dual Formulation",
+    "storage": "-20°C for up to 36 months, 2-8°C once reconstituted",
+    "variants": [
+      { "size": "10mg (5mg/5mg)", "priceUSD": 85.00, "sku": "CJC-IPA-10MG", "stock": 95 }
+    ],
+    "description": "A co-lyophilized formulation combining GHRH analog CJC-1295 (No DAC) and selective ghrelin receptor agonist Ipamorelin, providing a natural, amplified pulsatile release of endogenous growth hormone without cortisol/prolactin elevation.",
+    "batch": {
+      "batchNumber": "LP-2026-CJIPA-05",
+      "testDate": "2026-09-08",
+      "analyst": "Dr. Sarah Lindqvist, Ph.D.",
+      "testMethod": "Dual Peak RP-HPLC & LC-MS/MS",
+      "retentionTime": "7.90 min & 10.45 min",
+      "purityObserved": "99.51%",
+      "massSpecExpected": "3367.97 / 711.86",
+      "massSpecFound": "3367.90 / 711.82",
+      "appearance": "Uniform crisp white cake",
+      "endotoxin": "< 0.02 EU/mg"
+    },
+    "featured": true
+  },
+  {
+    "id": "semax",
+    "name": "Semax",
+    "slug": "semax",
+    "subtitle": "Heptapeptide ACTH(4-10) Analog",
+    "category": "Cognitive & Nootropic Research",
+    "casNumber": "80714-61-0",
+    "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
+    "molecularFormula": "C37H51N9O10S",
+    "molecularWeight": "813.92 g/mol",
+    "purity": "99.6%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months",
+    "variants": [
+      { "size": "30mg", "priceUSD": 59.00, "sku": "SMX-30MG", "stock": 42 }
+    ],
+    "description": "Semax is a synthetic regulatory heptapeptide analog of adrenocorticotropic hormone (ACTH 4-10). Heavily investigated for upregulation of Brain-Derived Neurotrophic Factor (BDNF) and TrkB receptor expression.",
+    "batch": {
+      "batchNumber": "LP-2026-SMX-03",
+      "testDate": "2026-08-04",
+      "analyst": "Marcus Vance, MS",
+      "testMethod": "RP-HPLC (C18 Column, 220nm) & ESI-MS",
+      "retentionTime": "6.85 min",
+      "purityObserved": "99.64%",
+      "massSpecExpected": "813.92",
+      "massSpecFound": "813.88",
+      "appearance": "Snow-white lyophilized solid",
+      "endotoxin": "< 0.03 EU/mg"
+    },
+    "featured": false
+  },
+  {
+    "id": "selank",
+    "name": "Selank",
+    "slug": "selank",
+    "subtitle": "Synthetic Tuftsin Analog Regulatory Heptapeptide",
+    "category": "Cognitive & Nootropic Research",
+    "casNumber": "129954-34-3",
+    "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+    "molecularFormula": "C33H57N11O9",
+    "molecularWeight": "751.87 g/mol",
+    "purity": "99.7%",
+    "form": "Lyophilized Powder (Vacuum Sealed)",
+    "storage": "-20°C for up to 36 months",
+    "variants": [
+      { "size": "30mg", "priceUSD": 62.00, "sku": "SLK-30MG", "stock": 38 }
+    ],
+    "description": "Selank is a synthetic heptapeptide derived from the immunomodulatory tetrapeptide Tuftsin. Researched for its anxiolytic properties, modulation of GABAergic transmission, and stabilization of endogenous enkephalins.",
+    "batch": {
+      "batchNumber": "LP-2026-SLK-01",
+      "testDate": "2026-07-15",
+      "analyst": "Dr. Elena Rostova, Ph.D.",
+      "testMethod": "RP-HPLC & Orbitrap MS",
+      "retentionTime": "5.92 min",
+      "purityObserved": "99.71%",
+      "massSpecExpected": "751.87",
+      "massSpecFound": "751.84",
+      "appearance": "White lyophilized cake",
+      "endotoxin": "< 0.02 EU/mg"
+    },
+    "featured": false
+  },
+  {
+    "id": "bac-water",
+    "name": "Bacteriostatic Water USP",
+    "slug": "bac-water",
+    "subtitle": "Sterile Reconstitution Medium with 0.9% Benzyl Alcohol",
+    "category": "Reconstitution & Lab Essentials",
+    "casNumber": "7732-18-5 / 100-51-6",
+    "sequence": "H2O + 0.9% C7H8O (Benzyl Alcohol preservative)",
+    "molecularFormula": "H2O / C7H8O",
+    "molecularWeight": "18.02 / 108.14 g/mol",
+    "purity": "USP Grade Sterile",
+    "form": "Multi-Dose Sealed Glass Vial (30mL)",
+    "storage": "20-25°C controlled room temperature",
+    "variants": [
+      { "size": "30mL Vial", "priceUSD": 14.00, "sku": "BAC-30ML", "stock": 250 }
+    ],
+    "description": "Sterile, non-pyrogenic water for injection containing 0.9% (9 mg/mL) benzyl alcohol as a bacteriostatic preservative. Specifically purified and buffered for multi-dose peptide lyophilization reconstitution in research laboratories.",
+    "batch": {
+      "batchNumber": "LP-2026-BAC-12",
+      "testDate": "2026-09-20",
+      "analyst": "Quality Control Laboratory - USP Verified",
+      "testMethod": "USP <71> Sterility Test & GC-FID Preservative Assay",
+      "retentionTime": "N/A",
+      "purityObserved": "USP Grade Sterile",
+      "massSpecExpected": "N/A",
+      "massSpecFound": "Pass (0.91% Benzyl Alcohol)",
+      "appearance": "Clear, colorless sterile solution",
+      "endotoxin": "< 0.005 EU/mL"
+    },
+    "featured": false
+  }
+]
